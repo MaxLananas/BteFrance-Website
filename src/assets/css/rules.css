@@ -1,17 +1,199 @@
+/* Ranks */
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+/* Staff ranks */
+
+.admin {
+    font-weight: bold;
+    color: #e05555;
+}
+
+.moderator {
+    font-weight: bold;
+    color: #e891e8;
+}
+
+.developer {
+    font-weight: bold;
+    color: #d4c264;
+}
+
+.support {
+    font-weight: bold;
+    color: #b07de8;
+}
+
+.archivist {
+    font-weight: bold;
+    color: #d4935a;
+}
+
+.evaluator {
+    font-weight: bold;
+    color: #4a8c5c;
+}
+
+.region-manager {
+    font-weight: bold;
+    color: #b07de8;
+}
+
+.community-manager {
+    font-weight: bold;
+    color: #c4854a;
+}
+
+/* Player ranks */
+
+.visitor {
+    font-weight: bold;
+    color: #797979;
+}
+
+.beginner {
+    font-weight: bold;
+    color: #3d7a2e;
+}
+
+.builder {
+    font-weight: bold;
+    color: #6aa84f;
+}
+
+.mason {
+    font-weight: bold;
+    color: #52b2a3;
+}
+
+.foreman {
+    font-weight: bold;
+    color: #5a9bd4;
+}
+
+.architect {
+    font-weight: bold;
+    color: #3a6db5;
+}
+
+.engineer {
+    font-weight: bold;
+    color: #1a3a8a;
+}
+
+/* Temporary ranks */
+
+.botm {
+    font-weight: bold;
+    color: #e6c42e;
+}
+
+.battle-winner {
+    font-weight: bold;
+    color: #e89040;
+}
+
+/* Legacy ranks */
+
+.helper {
+    font-weight: bold;
+    color: #b07de8;
+}
+
+.staff {
+    font-weight: bold;
+    color: #e05555;
+}
+
+.founder {
+    font-weight: bold;
+    color: #fd28fd;
+}
+
+.confirmed {
+    font-weight: bold;
+    color: #52b2a3;
+}
+
+/* Context */
+
+.mc-command {
+    font-family: McFont, sans-serif;
+    color: grey;
+}
+
+.discord-channel {
+    color: #505cdc;
+    background-color: #e6e8fd;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: unset;
+    border-radius: 2px;
+    padding-top: 0.2em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    white-space: nowrap;
+}
+
+.discord-channel::before {
+    content: "#";
+}
+
+.discord-user {
+    color: #505cdc;
+    background-color: #e6e8fd;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: unset;
+    border-radius: 2px;
+    padding-top: 0.2em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    white-space: nowrap;
+}
+
+.discord-user::before {
+    content: "@";
+}
+
+.emphasis {
+    font-weight: bold;
+}
+
+.technical {
+    background-color: #5d6064;
+    color: white;
+    border-radius: 2px;
+    padding-top: 0.2em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    white-space: nowrap;
+    font-family: hack, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* ===== Rules page layout improvements ===== */
+
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1em;
 }
 
+/* Header boxes (warning + info) */
 .rules-header {
     max-width: 90vw;
     width: 72em;
-    box-shadow: rgba(0, 0, 0, 0.61) 0 0 1em 0;
-    margin: 1em;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 2px 8px 0;
+    margin: 0.5em 1em;
     text-align: center;
     padding: 1.5em;
     border-radius: 0 1em 1em 0;
+    line-height: 1.6;
 }
 
 .rules-header::before {
@@ -25,40 +207,17 @@ main {
     padding: 0.5em 0 0;
     border-radius: 1em 0 0 1em;
     color: white;
-}
-
-.rules-column {
-    width: 35em;
-    max-width: 40vw;
-    border-radius: 1em;
-    box-shadow: rgba(0, 0, 0, 0.61) 0 0 1em 0;
-    margin: 1em auto 3rem auto;
-}
-
-.rules-column .content-box {
-    padding: 1em 2em 1em 1em;
-}
-
-.rules-column h3 {
-    text-align: center;
-    color: white;
-    width: 100%;
-    margin: 0;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    border-radius: 0.75em 0.75em 0 0;
-    background-color: #606060;
-}
-
-.rules-column li {
-    padding-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .rules-dangerous {
     color: #8d0303;
-    background-color: #ffe8e8;
+    background-color: #fff5f5;
     position: relative;
     margin-left: 3em;
+    border-left: 4px solid #ea4242;
 }
 
 .rules-dangerous a {
@@ -70,11 +229,25 @@ main {
     background-color: #ea4242;
 }
 
+.rules-dangerous-inline {
+    color: #8d0303;
+    background-color: #fff5f5;
+    border-radius: 0.5em;
+    padding: 0.75em 1em;
+    margin-bottom: 1em;
+    border-left: 4px solid #ea4242;
+}
+
+.rules-dangerous-inline h4 {
+    margin: 0 0 0.5em 0;
+}
+
 .rules-info {
     color: #00208b;
-    background-color: #effafd;
+    background-color: #f0f7ff;
     position: relative;
     margin-left: 3em;
+    border-left: 4px solid #425eea;
 }
 
 .rules-info::before {
@@ -82,34 +255,126 @@ main {
     background-color: #425eea;
 }
 
+/* Rule columns */
+.rules-column {
+    width: 35em;
+    max-width: 45vw;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 12px 0;
+    margin: 0.5em auto 2rem auto;
+    overflow: hidden;
+    transition: box-shadow 300ms ease;
+}
+
+.rules-column:hover {
+    box-shadow: rgba(0, 0, 0, 0.18) 0 4px 20px 0;
+}
+
+.rules-column .content-box {
+    padding: 1.2em 1.5em 1.2em 1.2em;
+    line-height: 1.6;
+}
+
+.rules-column h3 {
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0.8em 1em;
+    border-radius: 0;
+    font-size: 1.15em;
+    letter-spacing: 0.02em;
+}
+
+.rules-column h4 {
+    margin: 0.5em 0;
+    font-size: 1.05em;
+}
+
+.rules-column li {
+    padding-bottom: 0.8em;
+    line-height: 1.5;
+}
+
+.rules-column ol {
+    padding-left: 1.5em;
+}
+
+.rules-column ul {
+    padding-left: 1.2em;
+}
+
+/* Discord rules */
 .discord-rules {
-    background-color: #e9e0fb;
-    color: #51267e;
+    background-color: #f5f0ff;
+    color: #3d1f5e;
+    border: 1px solid #e0d4f5;
 }
 
 .discord-rules h3 {
-    background-color: #51267e;
+    background: linear-gradient(135deg, #5865f2, #51267e);
 }
 
 .discord-rules a {
     color: #7b06f6;
 }
 
+/* Minecraft rules */
 .minecraft-rules {
-    color: #016201;
-    background-color: #daffeb;
+    color: #0a4a0a;
+    background-color: #f0faf3;
+    border: 1px solid #c8e6d0;
 }
 
 .minecraft-rules h3 {
-    background-color: #016201;
+    background: linear-gradient(135deg, #2d8a4e, #016201);
 }
 
 .minecraft-rules a {
     color: #00b400;
 }
 
+/* Player ranks */
+.player-ranks {
+    background-color: #f8f9ff;
+    border: 1px solid #dde1f5;
+}
+
+.player-ranks h3 {
+    background: linear-gradient(135deg, #3a6db5, #1a3a8a);
+}
+
+/* Temporary ranks */
+.temporary-ranks {
+    background-color: #fffdf5;
+    border: 1px solid #f0e8c8;
+}
+
+.temporary-ranks h3 {
+    background: linear-gradient(135deg, #e6c42e, #e89040);
+}
+
+/* Staff ranks */
+.staff-ranks {
+    background-color: #fff5f5;
+    border: 1px solid #f5d4d4;
+}
+
+.staff-ranks h3 {
+    background: linear-gradient(135deg, #e05555, #b03030);
+}
+
+/* Subsections */
 .subsection {
-    padding-bottom: 2em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    margin-bottom: 1em;
+}
+
+.subsection:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .subsection ul {
@@ -118,13 +383,24 @@ main {
 }
 
 .subsection li {
-    padding-bottom: 0.1em;
+    padding-bottom: 0.2em;
 }
 
+/* Mobile */
 @media only screen and (max-width: 700px) {
 
     .rules-column {
-        max-width: 90vw;
+        max-width: 95vw;
+        width: 95vw;
+    }
+
+    .rules-header {
+        margin-left: 2em;
+        max-width: 95vw;
+    }
+
+    .rules-column .content-box {
+        padding: 1em;
     }
 
 }
