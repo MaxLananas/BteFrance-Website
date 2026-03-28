@@ -12,18 +12,16 @@
   <article class="rules-header rules-info">
     {{ 'pages.rules.rules.info' | i18n | lore | safe }}
   </article>
+
+  {# Discord Rules #}
   <article class="rules-column discord-rules">
     <h3>{{ 'pages.rules.rules.discord' | i18n | lore | safe }}</h3>
     <div class="content-box">
       <ol>
         {% for rule in rules.discord %}
             <li>
-                {% if rule.fr and locale == 'fr' %}
-                    {{ rule.fr | lore | safe }}
-                {% elif rule.en and locale == 'en' %}
-                    {{ rule.en | lore | safe }}
-                {% elif rule.en %}
-                    {{ rule.en | lore | safe }}
+                {% if rule[locale] %}
+                    {{ rule[locale] | lore | safe }}
                 {% elif rule.fr %}
                     {{ rule.fr | lore | safe }}
                 {% else %}
@@ -34,18 +32,19 @@
       </ol>
     </div>
   </article>
+
+  {# Minecraft Rules #}
   <article class="rules-column minecraft-rules">
     <h3>{{ 'pages.rules.rules.minecraft' | i18n | lore | safe }}</h3>
     <div class="content-box">
-      <ol>
-          {% for rule in rules.minecraft %}
+
+      <div class="subsection rules-dangerous-inline">
+        <h4>{% if locale == 'fr' %}⚠️ Avertissements{% else %}⚠️ Warnings{% endif %}</h4>
+        <ul>
+          {% for rule in rules.minecraft.warnings %}
               <li>
-                  {% if rule.fr and locale == 'fr' %}
-                      {{ rule.fr | lore | safe }}
-                  {% elif rule.en and locale == 'en' %}
-                      {{ rule.en | lore | safe }}
-                  {% elif rule.en %}
-                      {{ rule.en | lore | safe }}
+                  {% if rule[locale] %}
+                      {{ rule[locale] | lore | safe }}
                   {% elif rule.fr %}
                       {{ rule.fr | lore | safe }}
                   {% else %}
@@ -53,15 +52,55 @@
                   {% endif %}
               </li>
           {% endfor %}
-      </ol>
+        </ul>
+      </div>
+
+      <div class="subsection">
+        <h4>{% if locale == 'fr' %}⛔ Ce qui est interdit{% else %}⛔ What is forbidden{% endif %}</h4>
+        <ol>
+          {% for rule in rules.minecraft.forbidden %}
+              <li>
+                  {% if rule[locale] %}
+                      {{ rule[locale] | lore | safe }}
+                  {% elif rule.fr %}
+                      {{ rule.fr | lore | safe }}
+                  {% else %}
+                      {{ "Rule missing" }}
+                  {% endif %}
+              </li>
+          {% endfor %}
+        </ol>
+      </div>
+
+      <div class="subsection">
+        <h4>{% if locale == 'fr' %}☑️ Ce qui est autorisé{% else %}☑️ What is allowed{% endif %}</h4>
+        <ul>
+          {% for rule in rules.minecraft.allowed %}
+              <li>
+                  {% if rule[locale] %}
+                      {{ rule[locale] | lore | safe }}
+                  {% elif rule.fr %}
+                      {{ rule.fr | lore | safe }}
+                  {% else %}
+                      {{ "Rule missing" }}
+                  {% endif %}
+              </li>
+          {% endfor %}
+        </ul>
+      </div>
+
     </div>
   </article>
+
+  {# Ranks #}
   <h2 id="ranks">{{ 'pages.rules.ranks.title' | i18n }}</h2>
   <article class="rules-header rules-info">
     {{ 'pages.rules.ranks.info' | i18n | lore | safe }}
   </article>
-  <article class="rules-column">
-    <h3>{{ 'pages.rules.ranks.title' | i18n | lore | safe }}</h3>
+
+  {# Player Ranks #}
+  <article class="rules-column player-ranks">
+    <h3>{{ 'pages.rules.ranks.players.title' | i18n | lore | safe }}</h3>
     <div class="content-box">
       <div class="subsection">
         {{ 'pages.rules.ranks.players.visitor' | i18n | lore | safe }}
@@ -73,30 +112,60 @@
         {{ 'pages.rules.ranks.players.builder' | i18n | lore | safe }}
       </div>
       <div class="subsection">
+        {{ 'pages.rules.ranks.players.mason' | i18n | lore | safe }}
+      </div>
+      <div class="subsection">
         {{ 'pages.rules.ranks.players.foreman' | i18n | lore | safe }}
       </div>
       <div class="subsection">
         {{ 'pages.rules.ranks.players.architect' | i18n | lore | safe }}
       </div>
-      <div>
+      <div class="subsection">
         {{ 'pages.rules.ranks.players.engineer' | i18n | lore | safe }}
       </div>
     </div>
   </article>
-  <article class="rules-column">
-    <h3>Staff ranks</h3>
+
+  {# Temporary Ranks #}
+  <article class="rules-column temporary-ranks">
+    <h3>{{ 'pages.rules.ranks.temporary.title' | i18n | lore | safe }}</h3>
     <div class="content-box">
       <div class="subsection">
-        {{ 'pages.rules.ranks.staff.archivist' | i18n | lore | safe }}
+        {{ 'pages.rules.ranks.temporary.botm' | i18n | lore | safe }}
       </div>
       <div class="subsection">
-        {{ 'pages.rules.ranks.staff.helper' | i18n | lore | safe }}
+        {{ 'pages.rules.ranks.temporary.eventWinner' | i18n | lore | safe }}
+      </div>
+    </div>
+  </article>
+
+  {# Staff Ranks #}
+  <article class="rules-column staff-ranks">
+    <h3>{{ 'pages.rules.ranks.staff.title' | i18n | lore | safe }}</h3>
+    <div class="content-box">
+      <div class="subsection">
+        {{ 'pages.rules.ranks.staff.admin' | i18n | lore | safe }}
+      </div>
+      <div class="subsection">
+        {{ 'pages.rules.ranks.staff.moderator' | i18n | lore | safe }}
       </div>
       <div class="subsection">
         {{ 'pages.rules.ranks.staff.developer' | i18n | lore | safe }}
       </div>
       <div class="subsection">
-        {{ 'pages.rules.ranks.staff.staff' | i18n | lore | safe }}
+        {{ 'pages.rules.ranks.staff.support' | i18n | lore | safe }}
+      </div>
+      <div class="subsection">
+        {{ 'pages.rules.ranks.staff.archivist' | i18n | lore | safe }}
+      </div>
+      <div class="subsection">
+        {{ 'pages.rules.ranks.staff.evaluator' | i18n | lore | safe }}
+      </div>
+      <div class="subsection">
+        {{ 'pages.rules.ranks.staff.regionManager' | i18n | lore | safe }}
+      </div>
+      <div class="subsection">
+        {{ 'pages.rules.ranks.staff.communityManager' | i18n | lore | safe }}
       </div>
     </div>
   </article>
