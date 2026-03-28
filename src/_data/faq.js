@@ -6,19 +6,22 @@ module.exports = [
     },
     answer: {
       fr: "L'adresse IP du serveur est `btefrance.fr`. " +
-        "Vous pouvez vous connecter avec Minecraft vanilla 1.12.2, " +
-        "mais nous vous recommandons fortement d'installer notre modpack pour bénéficier de la meilleure " +
-        "expérience possible. " +
+        "Vous pouvez vous connecter avec Minecraft vanilla 1.21.10. " +
+        "Un modpack optionnel est également disponible pour enrichir votre expérience : " +
+        "[BTE France sur CurseForge](https://www.curseforge.com/minecraft/modpacks/bte-france)." +
+        "\n\n" +
         "**Vous devez également posséder une copie légitime de Minecraft pour jouer**, " +
         "les versions dites 'crackées' ne sont pas tolérées sur le serveur." +
         "\n\n" +
-        "Pour les détails, le salon Discord <#694003889506091100/810512822928670780,comment-rejoindre> sert de référence en la matière.",
+        "Pour les détails, le salon Discord <#694003889506091100/1128437187554328646,🤝・débutez-ici> sert de référence en la matière.",
       en: "The server's IP is `btefrance.fr`. " +
-        "You can join with vanilla 1.12.2 Minecraft, " +
-        "but we highly encourage you to install the Build The Earth modpack to get the full experience." +
+        "You can join with vanilla Minecraft 1.21.10. " +
+        "An optional modpack is also available to enhance your experience: " +
+        "[BTE France on CurseForge](https://www.curseforge.com/minecraft/modpacks/bte-france)." +
+        "\n\n" +
         "**Illegitimate copies of Minecraft are not allowed**, you must own a proper Minecraft account to join our server." +
         "\n\n" +
-        "For more details, the <#694003889506091100/735892858128695367,how-to-join> has all the information you need."
+        "For more details, the <#694003889506091100/1147987762436395080,🤝・start-here> channel has all the information you need."
     }
   },
   {
@@ -29,13 +32,13 @@ module.exports = [
     answer: {
       fr: "Non." +
         "\n\n" +
-        "Les versions bedrock ont été supportées par le passé, " +
-        "mais accueillir des joueurs jouant au dernières versions Bedrock sur un serveur Java 1.12.2 moddé " +
-        "nécessite de nombreuses couches de compatibilité complexe et demande des ressources humaines dont nous ne disposons pas.",
+        "Les versions Bedrock ont été supportées par le passé, " +
+        "mais accueillir des joueurs jouant aux dernières versions Bedrock sur un serveur Java " +
+        "nécessite de nombreuses couches de compatibilité complexes et demande des ressources humaines dont nous ne disposons pas.",
       en: "No." +
         "\n\n" +
         "Bedrock players were able to join in the past, " +
-        "but making a modded 1.12.2 Java server compatible with the latest Bedrock versions requires multiple complexe " +
+        "but making a Java server compatible with the latest Bedrock versions requires multiple complex " +
         "compatibility layers we do not have the human resources to maintain."
     }
   },
@@ -50,13 +53,19 @@ module.exports = [
         "Vous aurez ainsi la permission de construire et le staff suivra votre progression jusqu'à " +
         "ce que vous obteniez le rôle [Builder]." +
         "\n\n" +
-        "Des zones dites \"Débutant\" sont mises à votre disposition pour vous entraîner.",
-      en: "Getting ready to build is pretty straight forward, you can simply join our Minecraft serveur " +
+        "Des zones dites \"Débutant\" sont mises à votre disposition pour vous entraîner." +
+        "\n\n" +
+        "Pour plus d'informations, consultez <#694003889506091100/1128437187554328646,🤝・débutez-ici> et " +
+        "<#694003889506091100/1112855109123194910,📚・guides-fr> sur Discord.",
+      en: "Getting ready to build is pretty straightforward, you can simply join our Minecraft server " +
         "and ask a staff member for the [Débutant] role (débutant means beginner). " +
-        "This will grant you building permissions and the staff will follow your progress until you reach the" +
+        "This will grant you building permissions and the staff will follow your progress until you reach the " +
         "[Builder] role." +
         "\n\n" +
-        "\"Begginer\" zones have been created to let you try out building in BTE."
+        "\"Beginner\" zones have been created to let you try out building in BTE." +
+        "\n\n" +
+        "For more information, checkout <#694003889506091100/1147987762436395080,🤝・start-here> and " +
+        "<#694003889506091100/1163798527772725249,📚・guides-en> on Discord."
     }
   },
   {
@@ -70,19 +79,61 @@ module.exports = [
         "\n\n" +
         "Si vous êtes [Débutant], vous devez construire dans les zones débutants." +
         "\n\n" +
-        "Une fois [Builder] vous être libre de construire où vous le souhaitez sous certaines conditions :\n" +
-        " - il est interdit de construire à Paris sans la permission d'@Azguendare ,\n" +
-        " - il est interdit de se rendre ailleurs qu'en France, et donc d'y construire,\n" +
+        "Une fois [Builder] vous êtes libre de construire où vous le souhaitez sous certaines conditions :\n" +
+        " - il est interdit de construire à Paris sans respecter les règles spécifiques (voir la question dédiée ci-dessous),\n" +
+        " - il est interdit de se rendre ailleurs qu'en France (métropole et outre-mer) et Monaco, et donc d'y construire,\n" +
         " - il est interdit de construire sur une construction commencée sans l'accord de son constructeur ou du staff.",
       en: "Your constructions must follow the Build The Earth guidelines. " +
         "As a consequence, you should always reproduce a real life building by following the pre-made lines on the ground." +
         "\n\n" +
-        "[Begginers] should build in begginer zones." +
+        "[Beginners] should build in beginner zones." +
         "\n\n" +
         "[Builders] are allowed to build almost anywhere, under some conditions:\n" +
-        " - building in Paris is restricted to people approved by @Azguendare\n" +
-        " - going anywhere that is not France is forbidden, and you therefore cannot build there\n" +
+        " - building in Paris is subject to specific rules (see the dedicated question below),\n" +
+        " - going anywhere that is not France (metropolitan and overseas) and Monaco is forbidden, and you therefore cannot build there,\n" +
         " - building over someone else's work is forbidden without explicit permission from the original builder or staff."
+    }
+  },
+  {
+    question: {
+      fr: "Quelles sont les règles pour construire à Paris ?",
+      en: "What are the rules for building in Paris?"
+    },
+    answer: {
+      fr: "**Pour construire librement à Paris, il faut être à minima [Builder].**" +
+        "\n\n" +
+        "**[Débutants], vous avez accès à 3 zones libres :**\n" +
+        " - Gare du Nord — `/warp Debutant:Paris:Gare-du-Nord`\n" +
+        " - Père Lachaise — `/warp Debutant:Paris:Pere-Lachaise`\n" +
+        " - Pereire — `/warp Debutant:Paris:Pereire`" +
+        "\n\n" +
+        "Toute construction en dehors de ces zones est interdite pour les [Débutants]." +
+        "\n\n" +
+        "**Réaliser un lieu de culte, un parc, une caserne, un hôtel particulier ou tout autre monument classé nécessite une réservation en amont.**" +
+        "\n\n" +
+        "Pour réserver :\n" +
+        " - Demandez l'accord aux gérants de la région Paris dans le salon dédié sur Discord,\n" +
+        " - Attendez leur accord ou éventuel refus,\n" +
+        " - Si accepté, vous pouvez commencer votre projet. Si non, les gérants pourront vous proposer un lieu similaire." +
+        "\n\n" +
+        "Un espace au `/warp tuto_build` est dédié à Paris. Vous pouvez librement apporter des ajouts sur des patterns, du mobilier urbain, des bâtiments, etc.",
+      en: "**To build freely in Paris, you must be at least [Builder].**" +
+        "\n\n" +
+        "**[Beginners] have access to 3 free zones:**\n" +
+        " - Gare du Nord — `/warp Debutant:Paris:Gare-du-Nord`\n" +
+        " - Père Lachaise — `/warp Debutant:Paris:Pere-Lachaise`\n" +
+        " - Pereire — `/warp Debutant:Paris:Pereire`" +
+        "\n\n" +
+        "Any construction outside these zones is forbidden for [Beginners]." +
+        "\n\n" +
+        "**Building a place of worship, a park, a barracks, a mansion or any listed monument requires a prior reservation.**" +
+        "\n\n" +
+        "To make a reservation:\n" +
+        " - Ask for approval from the Paris region managers in the dedicated Discord channel,\n" +
+        " - Wait for their approval or potential refusal,\n" +
+        " - If accepted, you can start your project. If not, the managers may suggest a similar location." +
+        "\n\n" +
+        "A dedicated area at `/warp tuto_build` is available for Paris. You can freely add patterns, street furniture, buildings, etc."
     }
   },
   {
@@ -91,30 +142,27 @@ module.exports = [
       en: "How is the Minecraft world generated in an accurate way ?"
     },
     answer: {
-      fr: "Nous utilisons le mod [Terraplusplus](https://www.curseforge.com/minecraft/mc-mods/terraplusplus) " +
+      fr: "Nous utilisons le mod [TerraPlusMinus](https://github.com/BTE-Germany/TerraPlusMinus) " +
         "pour générer une réplique du monde réel dans Minecraft. " +
-        "Ce dernier se base sur les informations altimétrique de l'[Institut national de l'information géographique et forestière](https://www.ign.fr/) " +
-        "ainsi que sur la base de donnée géographique libre [OpenStreetMap](https://www.openstreetmap.org)." +
+        "Ce dernier se base sur les informations altimétriques de l'[Institut national de l'information géographique et forestière](https://www.ign.fr/) " +
+        "ainsi que sur la base de données géographique libre [OpenStreetMap](https://www.openstreetmap.org)." +
         "\n\n" +
-        "Nous utilisons également le mod [CubicChunks](https://www.curseforge.com/minecraft/mc-mods/opencubicchunks) " +
-        "qui permet d'étendre la hauteur maximale de construction de Minecraft pour la rendre infinie. " +
         "Le mont Blanc est donc bien présent sur BTE France !" +
         "\n\n" +
         "Pour faire correspondre la surface sphérique de la Terre avec le monde plat de Minecraft, " +
-        "une projection de carte spécialisée à été mise au point par l'équipe de Build The Earth " +
-        "en s'inspirant de la [projection de Fuller](https://fr.wikipedia.org/wiki/Projection_de_Fuller)." +
+        "une projection de carte spécialisée a été mise au point par l'équipe de Build The Earth " +
+        "en s'inspirant de la [projection de Fuller](https://fr.wikipedia.org/wiki/Projection_de_Fuller). " +
         "Cette projection est conforme et présente une distorsion relativement faible, " +
         "ce qui nous permet de reproduire les bâtiments du monde réel avec fidélité sur l'ensemble de la planète.",
-      en: "We rely on the [Terraplusplus](https://www.curseforge.com/minecraft/mc-mods/terraplusplus) mod to generate " +
+      en: "We rely on the [TerraPlusMinus](https://github.com/BTE-Germany/TerraPlusMinus) mod to generate " +
         "an accurate reproduction of the Earth in Minecraft. " +
         "It uses elevation data from the French [national institute for geographical and forestry data](https://www.ign.fr/), " +
-        "as well as the [OpenStreetMap](https://openstreetmap.org) open geo database. " +
+        "as well as the [OpenStreetMap](https://openstreetmap.org) open geo database." +
         "\n\n" +
-        "We also use the [CubicChunks](https://www.curseforge.com/minecraft/mc-mods/opencubicchunks) mod to extend Minecraft's height limit and make it virtually infinite." +
         "The Alps are no problem at all!" +
         "\n\n" +
         "To map the Earth's spherical surface onto the flat world of Minecraft, " +
-        "a custom map projection was designed by the Build The Earth team, taking inspiration from the [Dynmaxion projection](https://en.wikipedia.org/wiki/Dymaxion_map)." +
+        "a custom map projection was designed by the Build The Earth team, taking inspiration from the [Dymaxion projection](https://en.wikipedia.org/wiki/Dymaxion_map). " +
         "This projection is both conformal and has very low distortion, " +
         "which enables us to accurately reproduce real life buildings in the entire world."
     }
@@ -125,24 +173,24 @@ module.exports = [
       en: "What tools can I use to help me build?"
     },
     answer: {
-      fr: "Vous pouvez utiliser toutes sources d'informations qui vous paraît pertinente et " +
+      fr: "Vous pouvez utiliser toutes sources d'informations qui vous paraissent pertinentes et " +
         "que vous avez le droit d'utiliser pour tenter d'être le plus fidèle possible à la réalité." +
         "\n\n" +
-        "Vous disposez également en jeux de mods et de plugins pour vous assister :\n" +
-        " - [WorldEdit](https://www.curseforge.com/minecraft/mc-mods/worldedit)\n" +
-        " - [Voxel Sniper](https://dev.bukkit.org/projects/voxelsniper) (réservé aux [Contremaîtres])\n" +
-        " - [Terramap](https://www.curseforge.com/minecraft/mc-mods/terramap)\n" +
-        " - [TerraRenderer](https://www.curseforge.com/minecraft/mc-mods/bteterrarenderer) (doit être installé manuellement)\n" +
-        " - Vous être libre de modifier votre jeux comme bon vous semble si d'autres outils vous paraissent pertinents.",
-      en: "You can use any data source you consider relevant to try to be the most realist possible, " +
+        "Vous disposez également en jeu de plugins et d'outils pour vous assister :\n" +
+        " - [WorldEdit](https://enginehub.org/worldedit)\n" +
+        " - [Axiom](https://modrinth.com/mod/axiom)\n" +
+        " - Vous êtes libre d'installer le [modpack optionnel BTE France](https://www.curseforge.com/minecraft/modpacks/bte-france) ou tout autre mod client qui vous paraît pertinent." +
+        "\n\n" +
+        "Pour plus de détails, consultez <#694003889506091100/1112855109123194910,📚・guides-fr> sur Discord.",
+      en: "You can use any data source you consider relevant to try to be the most realistic possible, " +
         "as long as you are legally allowed to use it." +
         "\n\n" +
-        "In game, you are also provided with mods and plugins to assist you:\n" +
-        " - [WorldEdit](https://www.curseforge.com/minecraft/mc-mods/worldedit)\n" +
-        " - [Voxel Sniper](https://dev.bukkit.org/projects/voxelsniper) (exclusive to the [Contremaîtres] rank)\n" +
-        " - [Terramap](https://www.curseforge.com/minecraft/mc-mods/terramap)\n" +
-        " - [TerraRenderer](https://www.curseforge.com/minecraft/mc-mods/bteterrarenderer) (needs to be installed manually)\n" +
-        " - You are free to modify you game as you see fit if other tools come to your attention."
+        "In game, you are also provided with plugins and tools to assist you:\n" +
+        " - [WorldEdit](https://enginehub.org/worldedit)\n" +
+        " - [Axiom](https://modrinth.com/mod/axiom)\n" +
+        " - You are free to install the [optional BTE France modpack](https://www.curseforge.com/minecraft/modpacks/bte-france) or any other client-side mod you find useful." +
+        "\n\n" +
+        "For more details, checkout <#694003889506091100/1163798527772725249,📚・guides-en> on Discord."
     }
   }
 ]
