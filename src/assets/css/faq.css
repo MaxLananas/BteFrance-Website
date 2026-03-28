@@ -4,8 +4,9 @@ main {
 
 h2 {
     font-family: CaveStory, sans-serif;
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-top: 0;
+    color: rgb(0, 38, 84);
 }
 
 article {
@@ -13,27 +14,39 @@ article {
 }
 
 .faq-qa {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     margin-top: 0;
-    border-radius: 1rem;
+    border-radius: 0.75rem;
     padding: 0;
     position: relative;
-    box-shadow: rgba(0, 0, 0, 0.61) 0 0 1em 0;
-    transition: margin-bottom ease 200ms;
+    box-shadow: 0 2px 12px 0 rgba(0, 38, 84, 0.08);
+    transition: margin-bottom ease 200ms, box-shadow ease 300ms;
+    overflow: hidden;
+    border: 1px solid rgba(0, 38, 84, 0.06);
+}
+
+.faq-qa:hover {
+    box-shadow: 0 4px 20px 0 rgba(0, 38, 84, 0.12);
 }
 
 .faq-qa h3 {
-    background-color: #606060;
+    background: linear-gradient(135deg, #3a4a6b, #4a5a7b);
     color: white;
     margin: 0;
-    padding: 1rem 2rem 1rem 1rem;
-    border-radius: 1rem 1rem 0 0;
+    padding: 1rem 2.5rem 1rem 1.2rem;
+    border-radius: 0.75rem 0.75rem 0 0;
     cursor: pointer;
-    transition: border-radius ease 200ms;
+    transition: border-radius ease 200ms, background 200ms ease;
+    font-size: 1.05em;
+    font-weight: 500;
+}
+
+.faq-qa h3:hover {
+    background: linear-gradient(135deg, #4a5a7b, #5a6a8b);
 }
 
 .faq-qa.collapsed h3 {
-    border-radius: 1rem;
+    border-radius: 0.75rem;
 }
 
 .faq-qa p {
@@ -46,6 +59,7 @@ article {
     right: 1rem;
     rotate: 0deg;
     transition: rotate 200ms;
+    font-size: 0.8em;
 }
 
 .faq-qa.collapsed h3::after {
@@ -54,13 +68,15 @@ article {
 
 .faq-qa .faq-answer {
     overflow-y: hidden;
-    padding: 1rem;
+    padding: 1.2rem;
     transition: padding ease 200ms, max-height ease 200ms;
     max-height: 50vh;
+    line-height: 1.7;
+    background-color: white;
 }
 
 .faq-qa.collapsed .faq-answer {
     overflow-y: hidden;
     max-height: 0;
-    padding: 0 1rem 0 1rem;
+    padding: 0 1.2rem 0 1.2rem;
 }
