@@ -13,12 +13,12 @@ module.exports = {
       en: "**No politics or heavy topics.**"
     },
     {
-      fr: "**Respect des [CGU Discord](https://discord.com/terms).**",
-      en: "**Respect of [Discord's TOS](https://discord.com/terms).**"
+      fr: "**Respect des **[CGU Discord](https://discord.com/terms)\n.",
+      en: "**Respect of **[Discord's TOS](https://discord.com/terms)\n."
     },
     {
-      fr: "**Respect des [règles en jeu](https://discord.com/channels/694003889506091100/1130179699570643005).**",
-      en: "**Respect of [ingame rules](https://discord.com/channels/694003889506091100/1130179699570643005).**"
+      fr: "**Respect des **[règles en jeu](https://discord.com/channels/694003889506091100/1130179699570643005)\n.",
+      en: "**Respect of **[ingame rules](https://discord.com/channels/694003889506091100/1130179699570643005)\n."
     },
     {
       fr: "**Pas de Minecraft cracké !** Uniquement le launcher officiel est autorisé.",
