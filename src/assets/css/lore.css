@@ -8,6 +8,50 @@ ul {
     margin: 0;
 }
 
+/* Staff ranks */
+
+.admin {
+    font-weight: bold;
+    color: #e05555;
+}
+
+.moderator {
+    font-weight: bold;
+    color: #e891e8;
+}
+
+.developer {
+    font-weight: bold;
+    color: #d4c264;
+}
+
+.support {
+    font-weight: bold;
+    color: #b07de8;
+}
+
+.archivist {
+    font-weight: bold;
+    color: #d4935a;
+}
+
+.evaluator {
+    font-weight: bold;
+    color: #4a8c5c;
+}
+
+.region-manager {
+    font-weight: bold;
+    color: #b07de8;
+}
+
+.community-manager {
+    font-weight: bold;
+    color: #c4854a;
+}
+
+/* Player ranks */
+
 .visitor {
     font-weight: bold;
     color: #797979;
@@ -15,47 +59,56 @@ ul {
 
 .beginner {
     font-weight: bold;
-    color: #6aa84f;
+    color: #3d7a2e;
 }
 
 .builder {
     font-weight: bold;
-    color: #79a4ea;
+    color: #6aa84f;
+}
+
+.mason {
+    font-weight: bold;
+    color: #52b2a3;
 }
 
 .foreman {
     font-weight: bold;
-    color: #1b5cce;
+    color: #5a9bd4;
 }
 
 .architect {
     font-weight: bold;
-    color: #0e5595;
+    color: #3a6db5;
 }
 
 .engineer {
     font-weight: bold;
-    color: #0000ff;
+    color: #1a3a8a;
 }
 
-.archivist {
+/* Temporary ranks */
+
+.botm {
     font-weight: bold;
-    color: #b6650f;
+    color: #e6c42e;
 }
+
+.battle-winner {
+    font-weight: bold;
+    color: #e89040;
+}
+
+/* Legacy ranks (kept for backwards compatibility) */
 
 .helper {
     font-weight: bold;
-    color: #9900ff;
-}
-
-.developer {
-    font-weight: bold;
-    color: #bf9000;
+    color: #b07de8;
 }
 
 .staff {
     font-weight: bold;
-    color: #cc0000;
+    color: #e05555;
 }
 
 .founder {
@@ -63,11 +116,16 @@ ul {
     color: #fd28fd;
 }
 
+.confirmed {
+    font-weight: bold;
+    color: #52b2a3;
+}
+
 /* Context */
 
 .mc-command {
     font-family: McFont, sans-serif;
-    color:grey;
+    color: grey;
 }
 
 .discord-channel {
