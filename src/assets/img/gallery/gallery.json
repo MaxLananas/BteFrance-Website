@@ -1,0 +1,197 @@
+[
+  {
+    "name": {
+      "fr": "Menton",
+      "en": "Menton"
+    },
+    "builders": ["zxsp3ctrom"],
+    "author": "Bahlkog",
+    "description": {
+      "fr": "Centre ville de Menton, petite ville côtière frontalière à l'Italie.",
+      "en": "Downtown Menton, a small city on the French Riviera, bordering Italy."
+    },
+    "url": "/assets/img/gallery/menton.png",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "name": {
+      "fr": "La Couvertoirade",
+      "en": "La Couvertoirade"
+    },
+    "builders": ["BTE France"],
+    "author": "Weelly",
+    "description": {
+      "fr": "La Couvertoirade, un superbe village médiéval dans l'Aveyron, construit lors d'un événement. ",
+      "en": "La Couvertoirade, a superb medieval village in Aveyron, built during a team event."
+    },
+    "url": "/assets/img/gallery/la-couvertoirade.jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "name": {
+      "fr": "Viaduc de Millau",
+      "en": "Millau Viaduc"
+    },
+    "builders": ["mcnoided"],
+    "author": "mcnoided",
+    "description": {
+      "fr": "Le viaduc de Millau est le plus haut pont du monde de la pile au haubans.",
+      "en": "The viaduc of Millau is the tallest bridge in the world from the ground to the top of the towers."
+    },
+    "url": "/assets/img/gallery/viaduc-de-millau.png",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "name": {
+      "fr": "La Major",
+      "en": "La Major"
+    },
+    "builders": ["Weelly", "Babyoda"],
+    "author": "Weelly",
+    "description": {
+      "fr": "La Cathédrale Sainte-Marie-Majeure de Marseille est la seule cathédrale française construite durant le XIXe siècle.",
+      "en": "The Sainte-Marie-Majeur cathedral in Marseille was the only cathedral to be built in France during the XIXth century."
+    },
+    "url": "/assets/img/gallery/cathedrale-marie-majeure.png",
+    "width": 2560,
+    "height": 1440
+  },
+  {
+    "name": {
+      "fr": "Honfleur",
+      "en": "Honfleur"
+    },
+    "builders": ["BTE France"],
+    "author": "Lennah",
+    "description": {
+      "fr": "Le centre ville d'Honfleur, commune du Calvados dans l'estuaire de la Seine, a été construite par toute l'équipe BTE France lors d'un événement.",
+      "en": "Honfleur is a city in Calvados, where the Seine river meets the British Channel. It was built by the BTE France team during an event."
+    },
+    "url": "/assets/img/gallery/honfleur.png",
+    "width": 3840,
+    "height": 2160
+  },
+  {
+    "name": {
+      "fr": "Basilique Sainte-Thérèse",
+      "en": "Sainte-Thérèse Basilique"
+    },
+    "builders": ["Chief"],
+    "author": "Elfi",
+    "description": {
+      "fr": "La Basilique Sainte-Thérèse de Lisieux est une cathédrale du XXe siècle.",
+      "en": "Lisieux's Sainte-Thérèse Basilica est a XXth century cathedral."
+    },
+    "url": "/assets/img/gallery/basilique-st-therese.jpg",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": {
+      "fr": "Fort Boyard",
+      "en": "Fort Boyard"
+    },
+    "builders": ["Sterben"],
+    "author": "Lennah",
+    "description": {
+      "fr": "Fort Boyard, lieu de tournage de l'émission de télévision culte éponyme.",
+      "en": "The Fort Boyard is well known in France as the shooting place for a very famous tv show of the same name."
+    },
+    "url": "/assets/img/gallery/fort-boyard.png",
+    "width": 3840,
+    "height": 2160
+  },
+  {
+    "name": {
+      "fr": "Phare de Chanchardon",
+      "en": "Chanchardon lighthouse"
+    },
+    "builders": ["zxsp3ctrom"],
+    "author": "zxsp3ctrom",
+    "description": {
+      "fr": "",
+      "en": ""
+    },
+    "url": "/assets/img/gallery/phare-chanchardon.png",
+    "width": 1920,
+    "height": 1017
+  },
+  {
+    "name": {
+      "fr": "Turenne",
+      "en": "Turenne"
+    },
+    "builders": ["BTE France"],
+    "author": "Azguendare",
+    "description": {
+      "fr": "Turenne est un magnifique village de Corrèze. Il a été construit lors du premier événement de l'équipe.",
+      "en": "Turenne is a beautiful village in Corrèze. It was built during the first team event of BTE France."
+    },
+    "url": "/assets/img/gallery/turenne.jpg",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": {
+      "fr": "Centre historique de Nantes",
+      "en": "Historic center of Nantes"
+    },
+    "builders": ["Lucas", "Weelly", "Smyler", "BTE France"],
+    "author": "Elfi",
+    "description": {
+      "fr": "Le centre historique de Nantes, avec le chateau des ducs de Bretagne au premier plan et la Cathédrale Saint-Pierre et Saint-Paul au second. Cet une des zones les plus construite de BTE France.",
+      "en": "The historic center of Nantes features the Castle of the Ducs of Britany on the foreground and the Saint-Pierre and Saint-Paul cathedral in the Background. This is one of the most built areas of BTE France."
+    },
+    "url": "/assets/img/gallery/nantes.png",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": {
+      "fr": "L'arc de Triomphe et le quartier d'affaires de La Défense",
+      "en": "The arc of Triomphe and La Défense CBD"
+    },
+    "builders": ["BTE France"],
+    "author": "Smyler",
+    "description": {
+      "fr": "Vue sur l'arche de La Défense et l'arc de Triomphe depuis Paris.",
+      "en": "View on the arch of La Défense and the arc of Triomphe from Paris."
+    },
+    "url": "/assets/img/gallery/paris.png",
+    "width": 3840,
+    "height": 2160
+  },
+  {
+    "name": {
+      "fr": "Île de la cité",
+      "en": "La cité Island"
+    },
+    "builders": ["ETB"],
+    "author": "Howard",
+    "description": {
+      "fr": "L'île de la cité dans le centre de Paris a été construite sur BTE France par l'équipe ETB.",
+      "en": "La island is one of the oldest parts of Paris. It was built on BTE France by the ETB team."
+    },
+    "url": "/assets/img/gallery/paris-cite.png",
+    "width": 2560,
+    "height": 1440
+  },
+  {
+    "name": {
+      "fr": "Tour Eiffel",
+      "en": "Eiffel tower"
+    },
+    "builders": ["Azguendare"],
+    "author": "Azguendare",
+    "description": {
+      "fr": "La tour Eiffel est probablement le monument le plus connue de France. Une attention au détail exceptionnelle a été apportée lors de sa construction pour s'assurer d'une fidélité parfaite.",
+      "en": "The Eiffel tower is probably the most well known monument in France. A very special attention to detail was exercised when building it, to ensure perfect fidelity with the original model."
+    },
+    "url": "/assets/img/gallery/tour-eiffel.jpg",
+    "width": 2333,
+    "height": 3500
+  }
+]
