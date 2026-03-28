@@ -8,7 +8,7 @@ module.exports = [
       fr: "L'adresse IP du serveur est `btefrance.fr`. " +
         "Vous pouvez vous connecter avec Minecraft vanilla 1.21.10. " +
         "Un modpack optionnel est également disponible pour enrichir votre expérience : " +
-        "[BTE France sur CurseForge](https://www.curseforge.com/minecraft/modpacks/bte-france)." +
+        "[BTE France sur CurseForge](https://www.curseforge.com/minecraft/modpacks/bte-france)" +
         "\n\n" +
         "**Vous devez également posséder une copie légitime de Minecraft pour jouer**, " +
         "les versions dites 'crackées' ne sont pas tolérées sur le serveur." +
