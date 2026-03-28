@@ -1,86 +1,168 @@
 module.exports = {
   discord: [
     {
-      fr: "**Toute forme de racisme, de sexisme, d'homophobie et d'autres formes de préjugés est interdite.** Comprend les canaux vocaux, les canaux textuels, les DMs sans exceptions.",
-      en: "**All forms of racism, sexism, homophobia, and other forms of prejudice are prohibited.** Includes voice, Text channels, DMs with no exceptions."
+      fr: "**Pas de racisme, sexisme, homophobie ou d'autres formes de préjugés.**",
+      en: "**No racism, sexism, homophobia or other forms of prejudice.**"
     },
     {
-      fr: "**Envoyer toute pièce jointe (vidéo/image/lien) contenant du contenu érotique/sexuel ou gore est interdit.** Du NSFW mineur dans un texte, vocal, emoji ou réaction est également interdit, mais pris plus à la légère.",
-      en: "**Sending any attachment (video/image/link) that contains erotic/sexual content or gore is forbidden.** Suggestive/Minor NSFW in text, voice, emojis and reactions is also not allowed, but is taken more lightly."
+      fr: "**Aucun contenu érotique/sexuel/gore.**",
+      en: "**No erotic/sexual/gore content.**"
     },
     {
-      fr: "**Il est interdit de parler de politique et d'autres sujets lourds sur tout les canaux.** Il s'agit d'un serveur dédié à Build The Earth, et nous ne permettons pas de discuter de sujets lourds ou diviseurs.",
-      en: "**Talk of politics and other heavy topics is prohibited in all channels.** This is a server dedicated to the Build The Earth project alone, and we do not allow heavy or dividing topics to be discussed."
+      fr: "**Pas de politique ou sujets lourds.**",
+      en: "**No politics or heavy topics.**"
     },
     {
-      fr: "**Tout les aspects des CGU de Discord doivent être respectés (y compris, mais sans s'y limiter, la condition d'âge de 13 ans).** Les blagues sur la rupture des CGU seront traitées comme des faits. Lisez [ici](https://discord.com/terms).",
-      en: "**All aspects of Discord TOS must be followed (including but not limited to the age requirement of 13).** Jokes about breaking TOS will be treated as facts. Read up [here](https://discord.com/terms)."
+      fr: "**Respect des [CGU Discord](https://discord.com/terms).**",
+      en: "**Respect of [Discord's TOS](https://discord.com/terms).**"
     },
     {
-      fr: "**Vous n'êtes pas autorisé à jouer sur un compte piraté/crack (un compte Minecraft illégitime).** Ceci n'inclut pas les launchers tels que MultiMC ou Badlion car vous avez besoin d'un compte Minecraft légitime pour les utiliser.",
-      en: "**You are not allowed to play on a cracked account (an illegitimate Minecraft account).** This does not include launchers like MultiMc or Badlion as you require a legitimate Minecraft account to use them."
+      fr: "**Respect des [règles en jeu](https://discord.com/channels/694003889506091100/1130179699570643005).**",
+      en: "**Respect of [ingame rules](https://discord.com/channels/694003889506091100/1130179699570643005).**"
     },
     {
-      fr: "**Les comportements criminels (menaces de mort, chantage, etc...) ne sont pas autorisés.** Si le contexte sert à réfuter le comportement criminel, il sera répondu par un avertissement pour plus de discrétion.",
-      en: "**Criminal behaviour (death threats, blackmailing, etc...) is not allowed.** If the context is shown to disprove actual criminal behaviour, it will be met by a warning for further discretion."
+      fr: "**Pas de Minecraft cracké !** Uniquement le launcher officiel est autorisé.",
+      en: "**No cracked Minecraft!** Only the official launcher is allowed."
     },
     {
-      fr: "**Il est interdit de perturber ou de bait le chat.** Cela inclut le spam textuel, le copier-coller de murs de texte et le spoil bait pour faire croire aux autres à un mot interdit. Il faut également éviter le ping excessif et inutile, la surutilisation de majuscules et le formatage du texte.",
-      en: "**Having a username/profile picture/status/Game Activity that contains any violation of our rules is prohibited.** This also includes impersonation of Staff members (Having an identical profile picture and username/nickname)."
+      fr: "**Pas de comportements toxiques et criminels.**",
+      en: "**No toxic or criminal behavior.**"
     },
     {
-      fr: "**La publicité non sollicitée (par voix, texte ou DM) est interdite**",
-      en: "**Unsolicited advertising (through voice, text channels, or DMs) is prohibited.**"
+      fr: "**Pas de perturbation du chat** (spam, ASCII, flood, spoil, pings et markdown intensifs...).",
+      en: "**No chat disturbances** (spam, ASCII, flood, spoil, intensive pings and markdown...)."
     },
     {
-      fr: "** Il est interdit d'accuser quelqu'un d'enfreindre les règles dans les chats publics.** De telles situations sont considérées comme diffamatoires. Si vous avez des preuves, contactez un membre du Staff en privé à ce sujet et nous traiterons la situation en conséquence.",
-      en: "**Accusing someone for breaking rules in public chats is prohibited.** Instances of such are considered defamatory. If you have any proof, contact a Staff member privately about it and we will handle the situation accordingly."
+      fr: "**Les noms d'utilisateur, photos de profil, statuts et activités doivent respecter les règles.**",
+      en: "**Usernames, profile photos, statuses and activities must comply with the rules.**"
     },
     {
-      fr: "**Le comportement toxique général n'est autorisé dans aucun canal.** Cela inclut, mais n'est pas limité à, du earrape, des bruits et des cris forts/désagréables dans les chats vocaux ou fichiers postés, la diffusion de calomnies/mensonges, et un langage grossier, insultant ou désobligeant envers les utilisateurs ou Staff.",
-      en: "**General toxic behaviour is not allowed in any channels.** This includes, but is not limited to, earrape, loud/annoying noises and screams in voice chats and posted audio/video files, spreading slander/lies, and rude, insulting or derogatory language towards users/staff."
+      fr: "**Pas de publicité non sollicitée.**",
+      en: "**No unsolicited advertising.**"
     },
     {
-      fr: "**L'utilisation de canaux qui s'écartent de leur but n'est pas autorisée.** Veuillez lire la description du canal avant de chatter afin d'éviter toute sanction.",
-      en: "**Usage of channels that deviate from their purpose is not allowed.** Please read the channel description before chatting to avoid punishment by Staff."
+      fr: "**Pas d'accusation publique d'enfreinte des règles.** Allez voir un staff en privé.",
+      en: "**No public accusations of rule-breaking.** Go see a staff member in private."
     },
     {
-      fr: "**Éviter toute punition est fortement interdit.**",
-      en: "**Evading any punishment is heavily forbidden.**"
+      fr: "**L'utilisation de canaux qui s'écartent de leur but n'est pas autorisée.**",
+      en: "**The use of channels that deviate from their intended purpose is not permitted.**"
     },
     {
-      fr: "**Il est interdit d'exploiter une faille des règles.** Le bon sens général s'applique à toutes les règles et doit être signalé immédiatement.",
-      en: "**Exploiting rule loopholes is also not allowed.** General common sense applies to all rules, and must be reported immediately."
+      fr: "**Les sanctions ne doivent pas être contournées. Il est interdit d'exploiter les failles des règles.**",
+      en: "**Sanctions must not be circumvented. Exploiting loopholes in the rules is forbidden.**"
     }
   ],
-  minecraft: [
-    {
-      fr: "**Les règles du serveur Discord s'appliquent également sur le serveur Minecraft.**",
-      en: "**Rules from the Discord server also apply on the Minecraft server.**"
-    },
-    {
-      fr: "**Le 'grieffing' est strictement interdit et sera puni de bannissement.** Le grieffing consiste à opérer une quelconque modification à une construction sans la permission explicite de son constructeur initial ou d'un membre du staff. Est également considérer comme du grieffing la modification du terrain naturel dan un but purement destructif.",
-      en: "**Grieffing is strictly prohibited and will result in a ban.** Is considered grieffing **ANY** modification to a construction without the explicit permission of the original builder or of a staff member. Modifying natural terrain in a purely destructive manner is also considered grieffing."
-    },
-    {
-      fr: "**Il est interdit de générer du terrain inutilement.** Cela inclus de générer du terrain en dehors du territoire français ou monégasque à un emplacement où vous ne comptez pas construire.",
-      en: "**Useless terrain generation is forbidden.** This includes generating terrain outside of France or Monaco or in areas where you do not intend to build."
-    },
-    {
-      fr: "**Les constructions qui ne suivent pas les règles de Build The Earth sont proscrites.**",
-      en: "**Constructions that do not follow the Build The Earth construction guidelines are forbidden. Such and constructions will be deleted. Repeated infractions may result in a banishment.**"
-    },
-    {
-      fr: "**Les système redstone et les machines à lag sont formellement interdites.** En construire aboutira à un bannissement.",
-      en: "**Redstone systems and lag machines are strictly prohibited.** Constructing any will result in a ban."
-    },
-    {
-      fr: "**Il est interdit d'abuser de WorldEdit avec des sélection trop large ou une quelconque opération intense en calcul.**",
-      en: "**Abusing WorldEdit with large selections or any intensive workloads is forbidden.**"
-    },
-    {
-      fr: "**Faire volontairement crasher le serveur ou tenter de le faire sera puni par un bannissement permanent.**",
-      en: "**Crashing the server on purpose, or attempting to do so, will be sanctioned with a permanent banishment.**"
-    }
-  ]
+  minecraft: {
+    warnings: [
+      {
+        fr: "**Tout compte CRACK ou NON-OFFICIEL n'est pas autorisé sur le serveur.**",
+        en: "**Any CRACKED or UNOFFICIAL account is not allowed on the server.**"
+      },
+      {
+        fr: "**Ne tentez pas de contourner les règles et autres dispositifs mis en place.**",
+        en: "**Do not attempt to circumvent the rules or any measures put in place.**"
+      }
+    ],
+    forbidden: [
+      {
+        fr: "**Tout plagiat est formellement interdit.**",
+        en: "**All plagiarism is strictly prohibited.**"
+      },
+      {
+        fr: "**Générer des chunks inutilement.** Le serveur est fragile : afin d'alléger la taille de la map, " +
+          "utilisez le `/warps` pour vous déplacer. Si le lieu recherché n'existe pas en warp, il n'est pas construit.",
+        en: "**Generating chunks unnecessarily.** The server is fragile: to reduce the map size, " +
+          "use `/warps` to travel. If the location you are looking for doesn't have a warp, it hasn't been built yet."
+      },
+      {
+        fr: "**Faire des sélections WorldEdit conséquentes.** Ne sélectionnez pas la France, faites des sélections raisonnables.",
+        en: "**Making large WorldEdit selections.** Don't select all of France, make reasonable selections."
+      },
+      {
+        fr: "**Perturber, envahir le chat.** Toute forme perturbant le chat, ou message offensant envers le staff et autres sujets lourds sont interdits.",
+        en: "**Disrupting or flooding the chat.** Any form of chat disruption, offensive messages towards staff and other heavy topics are prohibited."
+      },
+      {
+        fr: "**Construire sans autorisation dans des lieux réservés.** " +
+          "Afin de garantir la qualité des builds, certains sont soumis à une whitelist :\n" +
+          " - Pour Paris : référez-vous au [guide disponible ici](https://discord.com/channels/694003889506091100/1130172157868118198)\n" +
+          " - Pour Monaco : contactez zxsp3ctrom\n" +
+          " - Pour les monuments historiques ou les structures complexes : consultez un membre du staff avant de commencer",
+        en: "**Building without authorization in restricted areas.** " +
+          "To ensure build quality, some areas are whitelisted:\n" +
+          " - For Paris: refer to the [guide available here](https://discord.com/channels/694003889506091100/1130172157868118198)\n" +
+          " - For Monaco: contact zxsp3ctrom\n" +
+          " - For historical monuments or complex structures: consult a staff member before starting"
+      },
+      {
+        fr: "**Spammer les déconnexions-reconnexions** hors problème technique.",
+        en: "**Spamming disconnections-reconnections** outside of technical issues."
+      },
+      {
+        fr: "**Faire crash le serveur volontairement.** Un crash involontaire n'est pas grave (missclick, erreur FAWE...).",
+        en: "**Intentionally crashing the server.** An unintentional crash is not a problem (misclick, FAWE error...)."
+      },
+      {
+        fr: "**Le grief.**",
+        en: "**Griefing.**"
+      },
+      {
+        fr: "**Se téléporter en dehors des territoires français (France Métropolitaine et Outre-Mer) et de Monaco.** " +
+          "Vous avez les autres teams pour visiter les autres pays.",
+        en: "**Teleporting outside of French territories (Metropolitan France and Overseas) and Monaco.** " +
+          "Other teams exist for visiting other countries."
+      },
+      {
+        fr: "**Faire des constructions n'ayant aucun rapport avec BTE France, machines à lag, signes religieux (hors lieux de culte).**",
+        en: "**Building anything unrelated to BTE France, lag machines, religious signs (outside places of worship).**"
+      },
+      {
+        fr: "**Continuer une construction commencée par un autre joueur.** Demandez la permission au staff ou à l'auteur avant de continuer.",
+        en: "**Continuing a build started by another player.** Ask permission from staff or the original builder before continuing."
+      },
+      {
+        fr: "**Toute construction faite sur le serveur BTE France est propriété du dit serveur.** " +
+          "L'utilisation d'un mod externe dans le but de récupérer des constructions sans notre accord est formellement interdite.",
+        en: "**All builds made on the BTE France server are property of said server.** " +
+          "Using an external mod to retrieve builds without our permission is strictly prohibited."
+      }
+    ],
+    allowed: [
+      {
+        fr: "Participer au projet, apporter une aide aux autres en difficulté.",
+        en: "Participating in the project, helping others in difficulty."
+      },
+      {
+        fr: "Proposer des suggestions, des améliorations, des events.",
+        en: "Proposing suggestions, improvements, events."
+      },
+      {
+        fr: "Demander le grade Débutant, Builder, Contremaître, Architecte dans les salons appropriés. " +
+          "Les autres grades ne sont accessibles que sur décision du staff.",
+        en: "Requesting the Beginner, Builder, Foreman, Architect ranks in the appropriate channels. " +
+          "Other ranks are only accessible by staff decision."
+      },
+      {
+        fr: "Contribuer au warp stock, ajouter des éléments.",
+        en: "Contributing to the warp stock, adding elements."
+      },
+      {
+        fr: "Pour un warp dans votre ville vous pouvez demander au staff, être à minima Builder. Plus d'infos sur le menu `/warps` en jeu.",
+        en: "For a warp in your city you can ask staff, you need to be at least Builder. More info in the `/warps` menu in game."
+      },
+      {
+        fr: "Réaliser un court métrage, cinématique pour nos réseaux sociaux.",
+        en: "Creating a short film or cinematic for our social media."
+      },
+      {
+        fr: "Venir en vocal.",
+        en: "Joining voice channels."
+      },
+      {
+        fr: "Vous pouvez avoir un sous-grade de région. Demandez à un staff.",
+        en: "You can have a region sub-rank. Ask a staff member."
+      }
+    ]
+  }
 }
