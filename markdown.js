@@ -123,16 +123,25 @@ class MarkdownParser {
     [ /<#([\d/]+),([^>]+)>/g, c => new DiscordChannel(c[1], c[2])],
     [ /@([^@\s]+)/g, c => new ClassedSpan('discord-user', c[1])],
     [ /\[(visit(?:eurs?|ors?))]/gi, c => new ClassedSpan('visitor', c[1])],
-    [ /\[(d[ée]butants?|begginers?)\]/giu, c => new ClassedSpan('beginner', c[1])],
+    [ /\[(d[ée]butants?|beginners?)\]/giu, c => new ClassedSpan('beginner', c[1])],
     [ /\[(buildeu?rs?)\]/giu, c => new ClassedSpan('builder', c[1])],
+    [ /\[(ma[çc]ons?|masons?)\]/giu, c => new ClassedSpan('mason', c[1])],
     [ /\[(contrema[iî]tres?|foremans?)\]/giu, c => new ClassedSpan('foreman', c[1])],
     [ /\[(architecte?s?)\]/giu, c => new ClassedSpan('architect', c[1])],
     [ /\[(ing[ée]nieurs?|engineers?)\]/giu, c => new ClassedSpan('engineer', c[1])],
-    [ /\[(archiviste?s?)\]/giu, c => new ClassedSpan('archivist', c[1])],
-    [ /\[(helpeu?rs?)\]/giu, c => new ClassedSpan('helper', c[1])],
+    [ /\[(archiviste?s?|archivists?)\]/giu, c => new ClassedSpan('archivist', c[1])],
+    [ /\[(administrateurs?|administrators?)\]/giu, c => new ClassedSpan('admin', c[1])],
+    [ /\[(mod[ée]rateurs?|moderators?)\]/giu, c => new ClassedSpan('moderator', c[1])],
+    [ /\[(supports?)\]/giu, c => new ClassedSpan('support', c[1])],
     [ /\[(d[ée]veloppeurs?|developers?)\]/giu, c => new ClassedSpan('developer', c[1])],
+    [ /\[([ée]valuateurs?|evaluators?)\]/giu, c => new ClassedSpan('evaluator', c[1])],
+    [ /\[(g[ée]rants?\s*r[ée]gions?|region\s*managers?)\]/giu, c => new ClassedSpan('region-manager', c[1])],
+    [ /\[(community\s*managers?)\]/giu, c => new ClassedSpan('community-manager', c[1])],
+    [ /\[(builder\s*of\s*the\s*month)\]/giu, c => new ClassedSpan('botm', c[1])],
+    [ /\[(gagnants?\s*d'?events?|event\s*winners?)\]/giu, c => new ClassedSpan('battle-winner', c[1])],
     [ /\[(staffs?)\]/giu, c => new ClassedSpan('staff', c[1])],
-    [ /\[(fondat(?:eur|rice)|founder)\]/giu, c => new ClassedSpan('founder', c[1])]
+    [ /\[(fondat(?:eur|rice)|founder)\]/giu, c => new ClassedSpan('founder', c[1])],
+    [ /\[(helpeu?rs?)\]/giu, c => new ClassedSpan('helper', c[1])]
   ];
 
   parse(text) {
